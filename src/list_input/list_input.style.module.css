@@ -1,0 +1,32 @@
+.input_container {
+  position: relative;
+  width: 100%;
+  margin-top: 0.8em;
+  overflow: hidden;
+}
+.input_container input {
+  width: 100%;
+  height: 45px;
+  border-radius: 30px;
+  background: lightgray;
+  border: none;
+  padding-left: 1.5rem;
+}
+.input_container input:focus,
+.input_container button:focus,
+.input_container button {
+  outline: none;
+  border: none;
+}
+button {
+  cursor: pointer;
+}
+.input_container button {
+  position: absolute;
+  background-color: orangered;
+  right: 0;
+  color: white;
+  border-radius: 30px;
+  height: 100%;
+  width: 25%;
+}

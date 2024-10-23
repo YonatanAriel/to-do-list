@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, blue, purple);
+}
+
+.container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.8rem 1.2rem;
+  width: min(30vw, 1000px);
+}
+
+h1 {
+  font-size: clamp(10px, 5vw + 1rem, 20px);
+  margin-right: 0.4em;
+}
+
+.container > img {
+  height: 20px;
+  aspect-ratio: 1/1;
+}
+.tasks_container {
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+}

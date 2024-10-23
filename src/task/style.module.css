@@ -1,0 +1,30 @@
+.task_container {
+  display: flex;
+  gap: 0em;
+  align-items: center;
+  padding: 0 1em;
+}
+.task_container button:hover,
+.task_container button:focus,
+.task_container button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+* .task_container span {
+  padding: 0 0 0.4em 0.5em;
+}
+
+.task_container > button:last-child {
+  margin-left: auto;
+  padding: 0.3em;
+  padding-bottom: 0.1em;
+}
+
+.task_container > button:last-child:hover {
+  padding: 0.3em;
+  padding-bottom: 0.1em;
+  background-color: lightgray;
+  /* border-radius: 50%; */
+  clip-path: circle();
+}
